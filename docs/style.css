@@ -40,6 +40,8 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  /*text-aligned to center for better formatting*/
+  text-align: center;
 }
 
 .past {
@@ -63,9 +65,20 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  /*added white pixel border to blue button to help match what the customer wants:*/
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 3px solid white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+  /*change button to black on hover*/
+  color: black;
+}
+
+/*added icon style to the icon so that it aligns vertically in the blue button*/
+.icon {
+  vertical-align: middle;
 }

@@ -14,6 +14,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <!--Open sans font from google apis:-->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
@@ -30,9 +31,79 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      
+      <!--set class to row for all time blocks-->
+      <div class="row">
+        <!--use bootstrap to give the time box a column width of 1:-->
+        <!--implement existing "hour" style to give the box the dashed line font: border-top: 1px dashed #000000;-->
+        <div class="col-lg-1 hour">9 AM</div>
+        <!--use bootstrap to give the text area a column width of 10-->
+        <!--assign text area the existing "textarea" style from the CSS sheet-->
+        <textarea class="textarea col-lg-10"></textarea>
+          <button class="col-lg-1 saveBtn">
+            <!--font awesome icon, free version of save button: https://fontawesome.com/v5/icons/save?s=solid-->
+            <i class="fas fa-save icon"></i>
+          </button>
+      </div>
+      <!--repeat for remaining hours-->
+      <div class="row">
+        <div class="col-lg-1 hour">10 AM</div>
+        <textarea class="textarea col-lg-10"></textarea>
+        <button class="col-lg-1 saveBtn">
+          <i class="fas fa-save icon"></i>
+        </button>
+  
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour">11 AM</div>
+        <textarea class="textarea col-lg-10"></textarea>
+        <button class="col-lg-1 saveBtn">
+          <i class="fas fa-save icon"></i>
+        </button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour">12 PM</div>
+        <textarea class="textarea col-lg-10"></textarea>
+        <button class="col-lg-1 saveBtn">
+          <i class="fas fa-save icon"></i>
+        </button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour">1 PM</div>
+        <textarea class="textarea col-lg-10"></textarea>
+        <button class="col-lg-1 saveBtn">
+          <i class="fas fa-save icon"></i>
+        </button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour">2 PM</div>
+        <textarea class="textarea col-lg-10"></textarea>
+        <button class="col-lg-1 saveBtn">
+          <i class="fas fa-save icon"></i>
+        </button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour">3 PM</div>
+        <textarea class="textarea col-lg-10"></textarea>
+        <button class="col-lg-1 saveBtn">
+          <i class="fas fa-save icon"></i>
+        </button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour">4 PM</div>
+        <textarea class="textarea col-lg-10"></textarea>
+        <button class="col-lg-1 saveBtn">
+          <i class="fas fa-save icon"></i>
+        </button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour">5 PM</div>
+        <textarea class="textarea col-lg-10"></textarea>
+        <button class="col-lg-1 saveBtn">
+          <i class="fas fa-save icon"></i>
+        </button>
+      </div>
     </div>
-
+    <!--jquery and moment.js-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
