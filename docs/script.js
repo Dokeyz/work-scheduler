@@ -1,2 +1,16 @@
-//match the id to the <p> element in the HTML so that a current time shows using the moment.js format:
-var $currentDay = moment().format('MMMM Do YYYY, h:mm:ss a');
+//current date to display under the header
+
+var currentDate = moment().format('dddd, MMMM Do');
+$("#currentDay").text(currentDate);
+
+
+//button
+
+/*var date = moment();
+moment().format('YYYY-MM-DD');
+console.log(moment.format('YYYY-MM-DD'));
+function today () {
+    document.getElementById("currentDay").innerHTML = "Today's Date: " + date;
+}
+
+today();*/
