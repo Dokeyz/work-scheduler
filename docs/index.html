@@ -32,7 +32,8 @@
     <div class="container">
       <!-- Timeblocks go here -->
       <!--set class to row for all time blocks-->
-      <div class="row" data-hour="9">
+      <!-- add custom attribute "hour" to reference for javascript -->
+      <div class="row" hour="9">
         <!--use bootstrap to give the time box a column width of 1:-->
         <!--implement existing "hour" style to give the box the dashed line font: border-top: 1px dashed #000000;-->
         <div class="col-lg-1 hour">9 AM</div>
@@ -45,57 +46,57 @@
           </button>
       </div>
       <!--repeat for remaining hours-->
-      <div class="row" data-hour="10">
+      <div class="row" hour="10">
         <div class="col-lg-1 hour">10 AM</div>
-        <textarea class="col-8 col-lg-10"></textarea>
+        <textarea class="textarea col-lg-10"></textarea>
         <button class="col-lg-1 saveBtn">
-          <i class="fas fa-save"></i>
+          <i class="fas fa-save icon"></i>
         </button>
   
       </div>
-      <div class="row" data-hour="11">
+      <div class="row" hour="11">
         <div class="col-lg-1 hour">11 AM</div>
         <textarea class="textarea col-lg-10"></textarea>
         <button class="col-lg-1 saveBtn">
           <i class="fas fa-save icon"></i>
         </button>
       </div>
-      <div class="row" data-hour="12">
+      <div class="row" hour="12">
         <div class="col-lg-1 hour">12 PM</div>
         <textarea class="textarea col-lg-10"></textarea>
         <button class="col-lg-1 saveBtn">
           <i class="fas fa-save icon"></i>
         </button>
       </div>
-      <div class="row" data-hour="13">
+      <div class="row" hour="13">
         <div class="col-lg-1 hour">1 PM</div>
         <textarea class="textarea col-lg-10"></textarea>
         <button class="col-lg-1 saveBtn">
           <i class="fas fa-save icon"></i>
         </button>
       </div>
-      <div class="row" data-hour="14">
+      <div class="row" hour="14">
         <div class="col-lg-1 hour">2 PM</div>
         <textarea class="textarea col-lg-10"></textarea>
         <button class="col-lg-1 saveBtn">
           <i class="fas fa-save icon"></i>
         </button>
       </div>
-      <div class="row" data-hour="15">
+      <div class="row" hour="15">
         <div class="col-lg-1 hour">3 PM</div>
         <textarea class="textarea col-lg-10"></textarea>
         <button class="col-lg-1 saveBtn">
           <i class="fas fa-save icon"></i>
         </button>
       </div>
-      <div class="row" data-hour="16">
+      <div class="row" hour="16">
         <div class="col-lg-1 hour">4 PM</div>
         <textarea class="textarea col-lg-10"></textarea>
         <button class="col-lg-1 saveBtn">
           <i class="fas fa-save icon"></i>
         </button>
       </div>
-      <div class="row" data-hour="17">
+      <div class="row" hour="17">
         <div class="col-lg-1 hour">5 PM</div>
         <textarea class="textarea col-lg-10"></textarea>
         <button class="col-lg-1 saveBtn">
@@ -106,6 +107,7 @@
     <!--jquery and moment.js-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!--linked javascript to HTML-->
     <script src="./script.js"></script>
   </body>
 </html>
